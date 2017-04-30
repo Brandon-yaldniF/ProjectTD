@@ -1,11 +1,10 @@
 {
-    "id": "3e396c26-53f9-409f-8879-bd23dfd1b618",
+    "id": "803d086c-23b3-4ae2-8d6b-d027d1cd5242",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "3e396c26-53f9-409f-8879-bd23dfd1b618",
+    "name": "803d086c-23b3-4ae2-8d6b-d027d1cd5242",
     "children": [
-        "2d83da79-23e1-4eea-8fc5-b0477d359643",
-        "b6f6ce67-4a63-4342-94dd-4594f81c38a7"
+        "bfd7f222-6d11-4173-bd8a-65f5c7b7651c"
     ],
     "filterType": "GMTileSet",
     "folderName": "tilesets",
