@@ -37,8 +37,8 @@
             ]
         }
     ],
-    "gridX": 0,
-    "gridY": 0,
+    "gridX": 10,
+    "gridY": 10,
     "height": 20,
     "layers": [
         {
@@ -54,7 +54,7 @@
         }
     ],
     "origin": 4,
-    "playbackSpeed": 15,
+    "playbackSpeed": 60,
     "playbackSpeedType": 0,
     "sepmasks": false,
     "swatchColours": null,
