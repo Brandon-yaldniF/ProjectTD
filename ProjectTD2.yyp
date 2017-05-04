@@ -210,7 +210,7 @@
             "Key": "dc679ab5-466c-4946-ae86-e0100fc2fe38",
             "Value": {
                 "id": "f963701a-2d31-401a-8c53-b1ac150788c8",
-                "resourcePath": "objects\\obj_background\\obj_background.yy",
+                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
                 "resourceType": "GMObject"
             }
         },
