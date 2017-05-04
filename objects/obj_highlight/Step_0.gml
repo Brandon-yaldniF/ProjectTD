@@ -1,33 +1,35 @@
-/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
+/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
-/// @DnDHash : 22A88DF6
-/// @DnDArgument : "var" "isHighlighted"
-/// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "object" "obj_highlight"
-/// @DnDSaveInfo : "object" "7b158836-37ba-4872-a17a-1e768c8ad3ea"
+/// @DnDHash : 1C35609B
+/// @DnDArgument : "x" "mouse_x"
+/// @DnDArgument : "y" "mouse_y"
 
 {
-	var isHighlighted = instance_number(obj_highlight);
+	x = mouse_x;
+	y = mouse_y;
 }
 
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Movement.Snap_Position
 /// @DnDVersion : 1
-/// @DnDHash : 537565B2
-/// @DnDArgument : "var" "isHighlighted"
-/// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "1"
-if(isHighlighted >= 1)
+/// @DnDHash : 03E517BE
+/// @DnDArgument : "xsnap" "10"
+/// @DnDArgument : "ysnap" "10"
+
 {
-	
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 1259B4F0
-	/// @DnDParent : 537565B2
-	instance_destroy();
-
-
+	move_snap(10, 10);
 }
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 6C249DCA
+/// @DnDInput : 2
+/// @DnDArgument : "value" "x"
+/// @DnDArgument : "value_1" "y"
+/// @DnDArgument : "var" "highlightX"
+/// @DnDArgument : "var_1" "highlightY"
+global.highlightX = x;
+global.highlightY = y;
+
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -57,18 +59,6 @@ if(global.rockLimit == 0)
 			/// @DnDArgument : "layer" ""Rocks""
 			/// @DnDSaveInfo : "objectid" "7ae7a8df-850d-45a7-b3b1-cfe8f059efa7"
 			instance_create_layer(x, y, "Rocks", obj_rock); 
-	
-			/// @DnDAction : YoYo Games.Movement.Snap_Position
-			/// @DnDVersion : 1
-			/// @DnDHash : 117FFEAB
-			/// @DnDApplyTo : 7ae7a8df-850d-45a7-b3b1-cfe8f059efa7
-			/// @DnDParent : 3524150A
-			/// @DnDArgument : "xsnap" "10"
-			/// @DnDArgument : "ysnap" "10"
-			with(obj_rock)
-			{
-				move_snap(10, 10);
-			}
 	
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
