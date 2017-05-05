@@ -34,8 +34,8 @@ global.highlightY = y;
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3F770C3C
-/// @DnDArgument : "var" "global.rockLimit"
-if(global.rockLimit == 0)
+/// @DnDArgument : "var" "rockLimit"
+if(rockLimit == 0)
 {
 	
 
@@ -65,8 +65,8 @@ if(global.rockLimit == 0)
 			/// @DnDHash : 70BE5301
 			/// @DnDParent : 3524150A
 			/// @DnDArgument : "expr" "1"
-			/// @DnDArgument : "var" "global.rockLimit"
-			global.rockLimit = 1;
+			/// @DnDArgument : "var" "rockLimit"
+			rockLimit = 1;
 			
 	
 	
@@ -96,8 +96,8 @@ else
 			/// @DnDVersion : 1
 			/// @DnDHash : 1D270675
 			/// @DnDParent : 5FC4A46A
-			/// @DnDArgument : "var" "global.rockLimit"
-			global.rockLimit = 0;
+			/// @DnDArgument : "var" "rockLimit"
+			rockLimit = 0;
 			
 	
 	

@@ -1,10 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 16DD8DF0
-/// @DnDArgument : "var" "rockLimit"
-global.rockLimit = 0;
-
-
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 1C0BBF49
