@@ -1,10 +1,10 @@
-/// @DnDAction : YoYo Games.Paths.Start_Path
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 791B8994
-/// @DnDArgument : "path" "path_0"
-/// @DnDSaveInfo : "path" "935173e8-8a88-4e2d-b16e-1ab0264026f1"
+/// @DnDHash : 357F2999
+/// @DnDArgument : "code" "/// Follow Path$(13_10)path_start(path_0,1,path_action_stop,true);"
 
 {
-	path_start(path_0, 1, 0, true);
+	/// Follow Path
+path_start(path_0,1,path_action_stop,true);
 }
 
