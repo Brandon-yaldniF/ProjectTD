@@ -10,7 +10,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "ca984c99-447d-4fd5-98b0-97be355b90fc",
-        "25abf85b-3c91-44eb-86d9-afeb9781e2e8"
+        "25abf85b-3c91-44eb-86d9-afeb9781e2e8",
+        "f9ba36cf-ffaf-40b9-8bfb-8b5ef63f187e"
     ],
     "layers": [
         {
@@ -83,6 +84,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "f9ba36cf-ffaf-40b9-8bfb-8b5ef63f187e",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_2208D5AD",
+                    "x": 192,
+                    "y": 112,
+                    "IsDnD": true,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_2208D5AD",
+                    "objId": "dd2fb9a8-d7dc-4352-8331-329c180ddf72",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -145,7 +170,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -157,7 +182,7 @@
             "m_serialiseFrozen": false,
             "name": "collision_map",
             "userdefined_depth": false,
-            "visible": true,
+            "visible": false,
             "prev_tileheight": 16,
             "prev_tilewidth": 16,
             "tiles": {
@@ -4877,7 +4902,7 @@
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0",
         "clearDisplayBuffer": true,
-        "clearViewBackground": false,
+        "clearViewBackground": true,
         "enableViews": true,
         "inheritViewSettings": false
     },
@@ -4887,7 +4912,7 @@
             "modelName": "GMRView",
             "mvc": "1.0",
             "hborder": 32,
-            "hport": 432,
+            "hport": 216,
             "hspeed": -1,
             "hview": 216,
             "inherit": false,
@@ -4895,7 +4920,7 @@
             "vborder": 32,
             "visible": true,
             "vspeed": -1,
-            "wport": 768,
+            "wport": 384,
             "wview": 384,
             "xport": 0,
             "xview": 0,
