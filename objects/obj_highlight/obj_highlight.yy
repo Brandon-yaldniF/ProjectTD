@@ -5,20 +5,20 @@
     "name": "obj_highlight",
     "eventList": [
         {
-            "id": "4657818a-6c65-4022-87c4-501027bf3068",
+            "id": "ba7f348f-0eb0-448f-8241-244c8321a1d5",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "7b158836-37ba-4872-a17a-1e768c8ad3ea"
         },
         {
-            "id": "8ed73d51-2993-4f60-8306-4cc303632d80",
+            "id": "9d0c0e8d-299d-42d6-a257-4c524ad5f335",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
