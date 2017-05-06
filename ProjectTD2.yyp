@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "3865f712-9bbb-491e-82d4-83410cee7ce5",
+            "Value": {
+                "id": "b4930bcf-f78e-4e1d-b8df-38ee1c49e183",
+                "resourcePath": "sprites\\spr_mask\\spr_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3cf2770e-7d07-4935-8246-d5b372219d9c",
             "Value": {
                 "id": "cf6f4bbd-fff3-4a01-97aa-9dced7d5feab",
@@ -91,6 +99,14 @@
             "Value": {
                 "id": "b9165707-6eb7-4234-bf4a-2fda6d67a7bc",
                 "resourcePath": "sprites\\spr_highlight\\spr_highlight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6bbfcebe-aab9-4b34-a636-ca445e093dc6",
+            "Value": {
+                "id": "62ae0045-284d-4df2-9e60-4065d09bffef",
+                "resourcePath": "sprites\\spr_highlight2\\spr_highlight2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -226,7 +242,7 @@
             "Key": "bfd7f222-6d11-4173-bd8a-65f5c7b7651c",
             "Value": {
                 "id": "df0c0ec0-d3f9-4441-8557-25313ed95a19",
-                "resourcePath": "tilesets\\til_1\\til_1.yy",
+                "resourcePath": "tilesets\\ts_ground\\ts_ground.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -266,7 +282,7 @@
             "Key": "de05ad8b-4454-482b-bf72-d611757a3c2d",
             "Value": {
                 "id": "7afe0d83-9e97-4f2f-bd9a-0bd2c6352403",
-                "resourcePath": "sprites\\sprite_2\\sprite_2.yy",
+                "resourcePath": "sprites\\spr_ground\\spr_ground.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -300,6 +316,14 @@
                 "id": "7f5c97cb-f48f-4471-8ce9-61c0747c1ef5",
                 "resourcePath": "views\\ef0883f9-1c3f-4364-86e1-000b8b5d2c6e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f038e49c-d736-4d73-a6fd-ddc700a5f214",
+            "Value": {
+                "id": "142a9040-8883-47e1-b6f2-c2b0c36dad92",
+                "resourcePath": "tilesets\\ts_map\\ts_map.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
