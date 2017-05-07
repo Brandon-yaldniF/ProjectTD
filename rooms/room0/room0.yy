@@ -95,7 +95,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2208D5AD",
                     "x": 192,
-                    "y": 112,
+                    "y": 96,
                     "IsDnD": true,
                     "colour": {
                         "Value": 4294967295
@@ -4912,7 +4912,7 @@
             "modelName": "GMRView",
             "mvc": "1.0",
             "hborder": 32,
-            "hport": 216,
+            "hport": 1080,
             "hspeed": -1,
             "hview": 216,
             "inherit": false,
@@ -4920,7 +4920,7 @@
             "vborder": 32,
             "visible": true,
             "vspeed": -1,
-            "wport": 384,
+            "wport": 1920,
             "wview": 384,
             "xport": 0,
             "xview": 0,
